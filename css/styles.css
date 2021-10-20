@@ -41,3 +41,41 @@ body {
 .texts__paragraph h2 {
   margin: 1rem 0;
 }
+
+/*============
+  Section Team
+==============*/
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 48rem);
+  justify-items: center;
+}
+.team__item {
+  position: relative;
+  min-width: 17.8rem;
+  max-width: 30rem;
+}
+.team__item--bottom {
+  align-self: end;
+}
+.team__person {
+  min-width: 13.8rem;
+  max-width: 23.8rem;
+  margin: 0;
+}
+.team__person img {
+  width: 100%;
+}
+.team__job {
+  position: absolute;
+  top: 0;
+  right: -2.4rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  writing-mode: vertical-rl;
+}
+.team__name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
