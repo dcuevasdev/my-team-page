@@ -27,7 +27,7 @@ body {
 .texts {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 .texts__title {
   font-family: "PT Serif", serif;
