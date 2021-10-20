@@ -50,6 +50,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 48rem);
   justify-items: center;
+  margin-bottom: 4rem;
 }
 .team__item {
   position: relative;
@@ -76,6 +77,28 @@ body {
   writing-mode: vertical-rl;
 }
 .team__name {
+  margin-top: 0.8rem;
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+/*======
+  Footer
+========*/
+.footer {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.footer a {
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.footer a:hover {
+  font-size: 1.4rem;
+  color: #74c576;
+  text-decoration: underline;
 }
