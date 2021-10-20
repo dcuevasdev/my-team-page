@@ -8,8 +8,36 @@
 }
 html {
   font-size: 62.5%;
+  line-height: 1.5;
 }
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+}
+.container {
+  min-width: 35rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0.8rem;
+}
+
+/*=============
+  Section Texts
+===============*/
+.texts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.texts__title {
+  font-family: "PT Serif", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.texts__paragraph {
+  width: 44rem;
+  font-size: 1.8rem;
+}
+.texts__paragraph h2 {
+  margin: 1rem 0;
 }
