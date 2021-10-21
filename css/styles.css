@@ -57,7 +57,7 @@ body {
   min-width: 17.8rem;
   max-width: 30rem;
 }
-.team__item--bottom {
+.team div:nth-child(3n + 2) {
   align-self: end;
 }
 .team__person {
@@ -101,4 +101,42 @@ body {
   font-size: 1.4rem;
   color: #74c576;
   text-decoration: underline;
+}
+
+/*=============
+  Media queries
+===============*/
+@media (max-width: 950px) {
+  /*==========
+  Section Team
+==============*/
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 48rem);
+  }
+  .team div:nth-child(2n + 1) {
+    align-self: start;
+  }
+  .team div:nth-child(2n) {
+    align-self: end;
+  }
+}
+
+@media (max-width: 560px) {
+  /*=============
+  Section Texts
+===============*/
+  .texts {
+    display: block;
+  }
+  /*==========
+  Section Team
+==============*/
+
+  .team {
+    gap: 0.8rem;
+  }
+  .team__item {
+    width: 90%;
+  }
 }
