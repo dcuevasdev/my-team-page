@@ -129,14 +129,18 @@ body {
   .texts {
     display: block;
   }
+
   /*==========
   Section Team
 ==============*/
-
   .team {
     gap: 0.8rem;
   }
-  .team__item {
-    width: 90%;
+  .team__person {
+    width: 13rem;
+    margin: 0;
+  }
+  .team__job {
+    right: 1.2rem;
   }
 }
